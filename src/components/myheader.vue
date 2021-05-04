@@ -1,6 +1,6 @@
 <template>
   <div id=header>
-    <router-link id="header_title" to="/"><div>発信みかん園</div></router-link>
+    <router-link id="header_title" to="./"><div>発信みかん園</div></router-link>
     <a href="" class="header_link"><div>About</div></a>
     <a href="" class="header_link"><div>About</div></a>
     <a href="" class="header_link"><div>About</div></a>

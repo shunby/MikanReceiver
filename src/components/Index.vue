@@ -1,8 +1,8 @@
 <template>
   <div>
-    <img class=uuuu src="../assets/imgs/uuuu2.png" />
+    <img class=uuuu src="@/assets/imgs/uuuu2.png" />
     <div class="twicon">
-      <img src="../assets/imgs/twicon.png" />
+      <img src="@/assets/imgs/twicon.png" />
     </div>
     <article>
       <h1>着信塗料</h1>
