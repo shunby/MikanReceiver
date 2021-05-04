@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: '/MikanReceiver/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/MikanReceiver/' : "/",
     outputDir: 'docs',
 }
