@@ -1,9 +1,10 @@
 <template>
-  <div id=header>
-    <router-link id="header_title" to="./"><div>発信みかん園</div></router-link>
-    <a href="" class="header_link"><div>About</div></a>
-    <a href="" class="header_link"><div>About</div></a>
-    <a href="" class="header_link"><div>About</div></a>
+  <div>
+    <div id=header>
+        <router-link id="header_title" to="./"><div>発信みかん園</div></router-link>
+        <router-link class="header_link" to="./about"><div>About</div></router-link>
+    </div>
+    <img class=uuuu src="@/assets/imgs/uuuu2.png" />
   </div>
 </template>
 
@@ -56,5 +57,10 @@
     background-color: rgba(230, 230, 230, 0.24);
     color:white;
 }
-
+.uuuu{
+  width:100%;
+  height: 30vw;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
 </style>

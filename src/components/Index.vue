@@ -1,6 +1,5 @@
 <template>
   <div>
-    <img class=uuuu src="@/assets/imgs/uuuu2.png" />
     <div class="twicon">
       <img src="@/assets/imgs/twicon.png" />
     </div>
@@ -13,18 +12,13 @@
 
 <script>
 export default{
+  name: "index"
 }
 </script>
 <style scoped>
 article{
 
   margin-left: 10px;
-}
-.uuuu{
-  width:100%;
-  height: 30vw;
-  object-fit: cover;
-  object-position: 0% 10%;
 }
 .twicon{
   position:relative;

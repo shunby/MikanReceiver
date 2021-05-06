@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 
-import HelloWorld from "./components/HelloWorld";
+import about from "./components/About";
 import index from "./components/Index";
 
 Vue.use(Router);
@@ -16,9 +16,9 @@ export default new Router({
         component: index
     },
     {
-        path:"/hellow",
-        name: "hello",
-        component: HelloWorld
+        path:"/about",
+        name: "about",
+        component: about
     }
   ]
 });
