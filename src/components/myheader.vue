@@ -58,8 +58,11 @@
     color:white;
 }
 .uuuu{
+  position:relative;
+  top:1.5em;
+  margin-bottom: 1.5em;
   width:100%;
-  height: 30vw;
+  height: 25vw;
   object-fit: cover;
   object-position: 0% 0%;
 }

@@ -1,14 +1,17 @@
 <template>
   <div class="about">
     <img id="twicon" src="@/assets/imgs/twicon.png">
-    <ul>
-      <li>名前：<br>着信塗料、みかんの波、neeなど</li>
-      <li>レート単調減少系水コーダー</li>
-      <li>触った言語：<br>C++, Java, JavaScript, Python, Rustなど</li>
-      <li>興味分野：<br>動画編集、お絵描き、作曲、競プロ、音声合成など</li>
-      <li>好きなもの：<br>VOICEROID、猫、パソコン、自室、ゆるいもの、
-          不思議な雰囲気のもの、ちょっと暗いもの、かわいいものなど</li>
-    </ul>
+    <table class="selfint">
+      <tr><th>名前</th>
+      </tr><tr><td>着信塗料、みかんの波、neeなど</td></tr>
+      <tr><th>触った言語</th>
+      </tr><tr><td><span>C++, Java, JavaScript, Python, Rust</span><wbr><span>など</span></td></tr>
+      <tr><th>興味分野</th>
+      </tr><tr><td>動画編集、お絵描き、作曲、競プロ、音声合成など</td></tr>
+      <tr><th>好きなもの</th>
+      </tr><tr><td>VOICEROID、猫、パソコン、自室、ゆるいもの、不思議な雰囲気のもの、
+      ちょっと暗いもの、かわいいものなど</td></tr>
+    </table>
   </div>
 </template>
 
@@ -23,6 +26,15 @@ export default {
 .about{
   margin-top:5px;
   margin-left: 8px;
+}
+.selfint span{
+  white-space: nowrap;
+}
+.selfint{
+  margin:5px 10%;
+}
+.selfint th{
+  background-color: lavender;
 }
 #twicon{
   margin:0 35%;
